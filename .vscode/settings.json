@@ -1,0 +1,48 @@
+{
+    "python.languageServer": "Pylance",
+    "files.autoSave": "onWindowChange",
+    "files.trimTrailingWhitespace": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.fontFamily": "Roboto Mono Medium",
+    "editor.detectIndentation": true,
+    "editor.tabSize": 4,
+    "editor.wordWrapColumn": 88,
+    "editor.rulers": [88],
+    "html.format.wrapLineLength": 88,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none",
+    "editor.tabCompletion": "on",
+    "python.analysis.typeCheckingMode": "basic",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.ruff": "explicit",
+          "source.organizeImports.ruff": "explicit",
+          "source.formatOnSave.ruff": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll.ruff": "explicit",
+        "notebook.source.organizeImports.ruff": "explicit",
+        "notebook.formatOnSave.ruff": "explicit"
+    },
+    "[git-commit]": {
+        "editor.rulers": [
+            50
+        ]
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}"
+    ],
+    "ruff.lint.args": ["--config=${workspaceFolder}/pyproject.toml"],
+    "ruff.format.args": ["--config=${workspaceFolder}/pyproject.toml"],
+    "git.enableSmartCommit": true,
+    "autoDocstring.startOnNewLine": false,
+    "autoDocstring.quoteStyle": "\"\"\"",
+    "gitlens.rebaseEditor.ordering": "asc",
+    "workbench.colorTheme": "GitHub Dark"
+}

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "play-tennis-ui"
+version = "0.1.0"
+description = "Create web app with streamlit for developers for interactive inference"
+authors = ["roniabrahamTA <roni.abraham@tigeranalytics.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.33.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,2 +1,2 @@
 # play_tennis_UI
-User Interface for developers workign on play_tennis inference
+User Interface for developers working on play_tennis inference
